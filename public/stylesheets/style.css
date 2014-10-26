@@ -1,0 +1,22 @@
+body {
+	background-color: white;
+}
+ .navbar-inverse .collapse ul li {
+ 	color: white;
+ }
+
+ footer {
+ 	background-color: #333;
+ 	color: white;
+ 	font-size: 14px;
+ 	padding: 20px;
+ }
+
+ footer ul  {
+ 	list-style: none;
+ 	padding: 0;
+ }
+
+ .jumbotron {
+ 	margin-top: 80px;
+ }

@@ -1,0 +1,14 @@
+{
+  "name": "alluring",
+  "version": "1.0.0",
+  "description": "Alluring Advertisement Website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kevin Rosario",
+  "dependencies": {
+    "ejs": "^1.0.0",
+    "express": "^4.10.0"
+  }
+}
