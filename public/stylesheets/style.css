@@ -1,6 +1,15 @@
 body {
 	background-color: white;
 }
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Oswald', sans-serif;
+}
+
+p {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
  .navbar-inverse .collapse ul li {
  	color: white;
  }
@@ -17,6 +26,25 @@ body {
  	padding: 0;
  }
 
+ .col-md-4 ul {
+ 	list-style: none;
+ 	padding: 0;
+ }
+
  .jumbotron {
  	margin-top: 80px;
+ 	text-align: center;
+ 	color: #fff;
+ 	background-color: #000026
+ }
+
+ .jumbotron .btn-primary {
+ 	background-color: transparent;
+ 	border-color: #fff;
+ }
+
+ .jumbotron .btn-primary:hover,
+ .jumbotron .btn-primary:focus,
+ .jumbotron .btn-primary:active {
+ 	background-color: #000040;
  }
