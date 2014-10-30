@@ -39,25 +39,26 @@ p {
  }
 
  .jumbotron .btn-primary {
- 	background-color: transparent;
- 	border-color: #fff;
- }
-
- .jumbotron .btn-primary:hover,
- .jumbotron .btn-primary:focus {
  	background-color: #ccac00;
  	border-color: #ccac00;
  	color: #eee;
  }
 
+ .jumbotron .btn-primary:hover,
+ .jumbotron .btn-primary:focus {
+ 	background-color: #7f6b00;
+ 	border-color: #7f6b00;
+ }
+
  .btn-warning {
- 	background-color: #ccac00;
- 	border-color: #ccac00;
+ 	background-color: #000026;
+ 	border-color: #000026;
+ 	color: #fff;
  }
 
  .btn-warning:hover,
  .btn-warning:focus {
- 	background-color: #fff;
- 	border-color: #ccac00;
- 	color: #190729;
+ 	background-color: #190729;
+ 	border-color: #190729;
+ 	color: #fff;
  }
