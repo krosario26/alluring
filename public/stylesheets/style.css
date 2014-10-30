@@ -44,7 +44,20 @@ p {
  }
 
  .jumbotron .btn-primary:hover,
- .jumbotron .btn-primary:focus,
- .jumbotron .btn-primary:active {
- 	background-color: #000040;
+ .jumbotron .btn-primary:focus {
+ 	background-color: #ccac00;
+ 	border-color: #ccac00;
+ 	color: #eee;
+ }
+
+ .btn-warning {
+ 	background-color: #ccac00;
+ 	border-color: #ccac00;
+ }
+
+ .btn-warning:hover,
+ .btn-warning:focus {
+ 	background-color: #fff;
+ 	border-color: #ccac00;
+ 	color: #190729;
  }
