@@ -10,8 +10,39 @@ p {
 	font-family: 'Josefin Sans', sans-serif;
 }
 
- .navbar-inverse .collapse ul li {
- 	color: white;
+ .navbar-inverse {
+ 	background-color: #e5c100;
+ 	border-color: #e5c100;
+ 	color: #fff;
+ }
+
+ .navbar-inverse .navbar-brand {
+ 	color: #fff;
+ }
+
+ .navbar-inverse .navbar-brand:hover,
+ .navbar-inverse .navbar-brand:focus{
+ 	color: #551a8b;
+ }
+
+ .navbar-inverse .navbar-nav li a{
+ 	color: #fff;
+ }
+
+ .navbar-inverse .navbar-nav li a:hover,
+ .navbar-inverse .navbar-nav li a:focus{
+ 	color: #551a8b;
+ 	background-color: #ccac00;
+ }
+
+ .navbar-inverse .navbar-toggle {
+ 	border-color: #fff;
+ }
+
+ .navbar-inverse .navbar-toggle:hover,
+ .navbar-inverse .navbar-toggle:focus {
+ 	background-color: #551a8b;
+ 	border-color: #551a8b;
  }
 
  footer {
