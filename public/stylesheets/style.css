@@ -11,38 +11,61 @@ p {
 }
 
  .navbar-inverse {
- 	background-color: #e5c100;
- 	border-color: #e5c100;
+ 	background-color: #000026;
+ 	border-color: #add8e6;
  	color: #fff;
  }
 
  .navbar-inverse .navbar-brand {
  	color: #fff;
+	font-family: 'Oswald', sans-serif;
+ 	transition-duration: 0.3s;
  }
 
  .navbar-inverse .navbar-brand:hover,
  .navbar-inverse .navbar-brand:focus{
- 	color: #551a8b;
+ 	-webkit-color: #bba3d0;
+ 	-moz-color: #bba3d0;
+ 	-o-color: #bba3d0;
+ 	color: #bba3d0;
+ 	transition-duration: 0.3s;
+ }
+
+ .active {
+ 	background-color: #9C8AA5;
  }
 
  .navbar-inverse .navbar-nav li a{
+ 	-webkit-color: #fff;
+ 	-moz-color: #fff;
+ 	-o-color: #fff;
  	color: #fff;
+ 	transition-duration: 0.5s;
  }
 
  .navbar-inverse .navbar-nav li a:hover,
  .navbar-inverse .navbar-nav li a:focus{
- 	color: #551a8b;
- 	background-color: #ccac00;
+ 	-webkit-background-color: #732C7B;
+ 	-moz-background-color: #732C7B;
+ 	-o-background-color: #732C7B;
+ 	background-color: #732C7B;
+ 	bottom-border-color: #732C7B;
+ 	transition-duration: 0.5s;
  }
+
+
 
  .navbar-inverse .navbar-toggle {
  	border-color: #fff;
+ 	transition-duration: 0.3s;
  }
 
  .navbar-inverse .navbar-toggle:hover,
  .navbar-inverse .navbar-toggle:focus {
- 	background-color: #551a8b;
- 	border-color: #551a8b;
+ 	background-color: #add8e6;
+ 	border-color: #add8e6;
+ 	border-color: #fff;
+ 	transition-duration: 0.3s;
  }
 
  footer {
@@ -65,26 +88,29 @@ p {
  .jumbotron {
  	margin-top: 40px;
  	text-align: center;
- 	color: #fff;
- 	background-color: #000026
+ 	color: black;
+ 	background-color: #add8e6;
  }
 
  .jumbotron .btn-primary {
- 	background-color: #ccac00;
- 	border-color: #ccac00;
+ 	background-color: #000026;
+ 	border-color: #000026;
  	color: #eee;
+ 	transition-duration: 0.3s;
  }
 
  .jumbotron .btn-primary:hover,
  .jumbotron .btn-primary:focus {
- 	background-color: #7f6b00;
- 	border-color: #7f6b00;
+ 	background-color: #220a37;
+ 	border-color: #220a37;
+ 	transition-duration: 0.3s;
  }
 
  .btn-warning {
  	background-color: #000026;
  	border-color: #000026;
  	color: #fff;
+ 	transition-duration: 0.3s;
  }
 
  .btn-warning:hover,
@@ -92,6 +118,7 @@ p {
  	background-color: #190729;
  	border-color: #190729;
  	color: #fff;
+ 	transition-duration: 0.3s;
  }
 
  .col-md-6 {

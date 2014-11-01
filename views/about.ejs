@@ -5,7 +5,31 @@
 </head>
 <body>
 	<!-- Navigation bar -->
-	<% include partials/page/navbar.ejs %>
+	<nav class="navbar navbar-inverse navbar-fixed-top" id="navbar">
+			<div class="container">
+			    <!-- Brand and toggle get grouped for better mobile display -->
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+			      <a class="navbar-brand" href="/">Alluring Advertisements</a>
+			    </div>
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			    	<ul class="nav navbar-nav navbar-right">
+			        <li><a href="/"><strong>Home</strong></a></li>
+			        <li><a href="/about" class="active"><strong>About Us</strong></a></li>
+			        <li><a href="/services"><strong>Services</strong></a></li>
+			        <li><a href="/portfolio"><strong>Portfolio</strong></a></li>
+			        <li><a href="/contact"><strong>Contact us</strong></a></li>
+			      </ul>
+			    </div>
+			</div>
+		</nav>
+
+		<!-- End of the navigation bar-->
 
 		<!-- Content -->
 		<div class="container">
