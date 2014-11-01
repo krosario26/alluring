@@ -21,7 +21,8 @@ p {
  }
 
  .navbar-inverse .navbar-brand:hover,
- .navbar-inverse .navbar-brand:focus{
+ .navbar-inverse .navbar-brand:focus,
+ .navbar-inverse .navbar-brand:active{
  	color: #551a8b;
  }
 
@@ -30,7 +31,8 @@ p {
  }
 
  .navbar-inverse .navbar-nav li a:hover,
- .navbar-inverse .navbar-nav li a:focus{
+ .navbar-inverse .navbar-nav li a:focus,
+ .navbar-inverse .navbar-nav li a:active{
  	color: #551a8b;
  	background-color: #ccac00;
  }
@@ -40,7 +42,8 @@ p {
  }
 
  .navbar-inverse .navbar-toggle:hover,
- .navbar-inverse .navbar-toggle:focus {
+ .navbar-inverse .navbar-toggle:focus,
+ .navbar-inverse .navbar-toggle:active {
  	background-color: #551a8b;
  	border-color: #551a8b;
  }
@@ -76,7 +79,8 @@ p {
  }
 
  .jumbotron .btn-primary:hover,
- .jumbotron .btn-primary:focus {
+ .jumbotron .btn-primary:focus,
+ .jumbotron .btn-primary:active {
  	background-color: #7f6b00;
  	border-color: #7f6b00;
  }
@@ -88,7 +92,8 @@ p {
  }
 
  .btn-warning:hover,
- .btn-warning:focus {
+ .btn-warning:focus,
+ .btn-warning:active {
  	background-color: #190729;
  	border-color: #190729;
  	color: #fff;
