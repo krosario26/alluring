@@ -125,3 +125,28 @@ p {
  	border-color: black;
  	margin-left, margin-right: 30px;
  }
+
+ .animation {
+ 	text-align: center;
+ }
+
+ .about-list ul a li{
+ 	text-decoration: none;
+ 	color: #000;
+ 	transition-duration: 0.3s;
+ }
+
+ .about-list ul a:hover,
+ .about-list ul a:focus,
+ .about-list ul a:active {
+ 	text-decoration: none;
+ }
+
+ .about-list .list-group .list-group-item:hover,
+ .about-list .list-group .list-group-item:focus,
+ .about-list .list-group .list-group-item:active {
+ 	background-color: #8b0000;
+ 	color: #fff;
+ 	transition-duration: 0.3s;
+ }
+
