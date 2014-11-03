@@ -24,15 +24,15 @@ p {
 
  .navbar-inverse .navbar-brand:hover,
  .navbar-inverse .navbar-brand:focus{
- 	-webkit-color: #bba3d0;
- 	-moz-color: #bba3d0;
- 	-o-color: #bba3d0;
- 	color: #bba3d0;
+ 	-webkit-color: #ff4c4c;
+ 	-moz-color: #ff4c4c;
+ 	-o-color: #ff4c4c;
+ 	color: #ff4c4c;
  	transition-duration: 0.3s;
  }
 
  .active {
- 	background-color: #9C8AA5;
+ 	background-color: #8b0000;
  }
 
  .navbar-inverse .navbar-nav li a{
@@ -45,11 +45,10 @@ p {
 
  .navbar-inverse .navbar-nav li a:hover,
  .navbar-inverse .navbar-nav li a:focus{
- 	-webkit-background-color: #732C7B;
- 	-moz-background-color: #732C7B;
- 	-o-background-color: #732C7B;
- 	background-color: #732C7B;
- 	bottom-border-color: #732C7B;
+ 	-webkit-color: #ff4c4c;
+ 	-moz-color:#ff4c4c;
+ 	-o-color: #ff4c4c;
+ 	color: #ff4c4c;
  	transition-duration: 0.5s;
  }
 
