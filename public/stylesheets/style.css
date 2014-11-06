@@ -153,3 +153,7 @@ p {
 .jumbotron a i {
 	color: #000026;
 }
+
+.inline {
+	display: inline;
+}
