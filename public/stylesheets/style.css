@@ -150,3 +150,6 @@ p {
  	transition-duration: 0.3s;
  }
 
+.jumbotron a i {
+	color: #000026;
+}
