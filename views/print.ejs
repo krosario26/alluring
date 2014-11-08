@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<% include partials/page/head.ejs %>
+</head>
+<body>
+	<!-- Navigation bar -->
+	<nav class="navbar navbar-inverse navbar-fixed-top" id="navbar">
+			<div class="container">
+			    <!-- Brand and toggle get grouped for better mobile display -->
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+			      <a class="navbar-brand" id="transition" href="/">Alluring Advertising</a>
+			    </div>
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			    	<ul class="nav navbar-nav navbar-right">
+			        <li><a href="/" id="transition"><strong>Home</strong></a></li>
+			        <li><a href="/about" id="transition"><strong>About Us</strong></a></li>
+			        <li><a href="/services" id="transition"><strong>Services</strong></a></li>
+			        <li><a href="/portfolio" class="active" id="transition"><strong>Portfolio</strong></a></li>
+			      </ul>
+			    </div>
+			</div>
+		</nav>
+
+		<!-- End of the navigation bar-->
+
+		<!-- Content -->
+		<div class="jumbotron">
+            <center><h1>Portfolio</h1>
+            <p>Selection of our most apprecieted works</p>
+            <p class="inline"><a href="/webdesign" class="btn btn-primary" role="button" class="active"><strong>Web Design</strong></a></p>
+            <p class="inline"><a href="/branding" class="btn btn-primary" role="button" class="active"><strong>Brand Identity</strong></a></p>
+            <p class="inline"><a href="/print" class="btn btn-primary" role="button" class="active"><strong>Print Media</strong></a></p></center>
+          </div>
+         
+		<hr>
+		<!-- End of Content -->
+
+		<!--Footer-->
+		<% include partials/page/footer.ejs %>
+		<% include partials/page/scripts.ejs %>
+
+</body>
+</html>

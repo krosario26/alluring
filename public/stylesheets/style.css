@@ -155,6 +155,6 @@ p {
 }
 
 .inline {
-	display: inline;
-	margin: 6px;
+	display: inline-block;
+	margin-top: 1px;
 }

@@ -17,3 +17,15 @@ exports.portfolio = function(req, res) {
 exports.contact = function(req, res) {
 	res.render('contact');
 }
+
+exports.webdesign = function(req, res) {
+	res.render('webdesign');
+}
+
+exports.branding = function(req, res) {
+	res.render('branding');
+}
+
+exports.print = function(req, res) {
+	res.render('print');
+}
