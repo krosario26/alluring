@@ -100,10 +100,25 @@ p {
 
  .jumbotron .btn-primary:hover,
  .jumbotron .btn-primary:focus {
- 	background-color: #220a37;
- 	border-color: #220a37;
+ 	background-color: #551A8B;
+ 	border-color: #551A8B;
  	transition-duration: 0.3s;
  }
+
+ .jumbotron .btn-success {
+ 	background-color: #8b0000;
+ 	border-color: #8b0000;
+ 	color: #eee;
+ 	transition-duration: 0.3s;
+ }
+
+.jumbotron .btn-success:hover,
+.jumbotron .btn-success:active {
+	background-color: #ff4c4c;
+ 	border-color: #ff4c4c;
+ 	color: #eee;
+ 	transition-duration: 0.3s;
+} 
 
  .btn-warning {
  	background-color: #000026;
@@ -114,8 +129,8 @@ p {
 
  .btn-warning:hover,
  .btn-warning:focus{
- 	background-color: #190729;
- 	border-color: #190729;
+ 	background-color: #551A8B;
+ 	border-color: #551A8B;
  	color: #fff;
  	transition-duration: 0.3s;
  }
