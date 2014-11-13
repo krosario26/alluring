@@ -79,6 +79,18 @@ p {
  	padding: 0;
  }
 
+ footer ul li a {
+ 	text-decoration: none;
+ 	color: #add8e6;
+ }
+
+ footer ul li a:hover,
+ footer ul li a:focus,
+ footer ul li a:active {
+ 	text-decoration: none;
+ 	color: #eee;
+ }
+
  .col-md-4 ul {
  	list-style: none;
  	padding: 0;
