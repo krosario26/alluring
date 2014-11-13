@@ -29,3 +29,7 @@ exports.branding = function(req, res) {
 exports.print = function(req, res) {
 	res.render('print');
 }
+
+exports.clients = function(req, res) {
+	res.render('clients');
+}

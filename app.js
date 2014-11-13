@@ -15,6 +15,7 @@ app.get('/contact', routes.contact);
 app.get('/webdesign', routes.webdesign);
 app.get('/branding', routes.branding);
 app.get('/print', routes.print);
+app.get('/clients', routes.clients);
 
 var server = app.listen(process.env.PORT || 3000, function() {
 	console.log('Listening on port 3000');
