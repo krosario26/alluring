@@ -30,7 +30,7 @@ router.get('/print', function(req, res) {
 });
 
 router.get('/clients', function(req, res) {
-  res.render('clients', { title: 'Portfolio | Alluring Advertising' });
+  res.send('Clients list coming soon!!');
 });
 
 module.exports = router;
