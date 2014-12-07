@@ -194,3 +194,7 @@ p {
 #center .col-md-12 a {
 	border-style: none;
 }
+
+.logo {
+	float: left;
+}
